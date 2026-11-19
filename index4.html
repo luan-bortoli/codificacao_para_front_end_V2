@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links, Listas e Tabelas</title>
+</head>
+<body>
+    <!--Links de acesso Externo-->
+    <a href="https://www.google.com/">Acesse o Google aqui!</a>
+    <a href="https://www.google.com/" target="_blank">Acesse o Google em uma nova guia!</a>
+    
+    <a href="index4.html">Link Interno</a>
+    <a href="#sobre">Link Âncora</a>
+    <a href="mailto:contato@teste.com">Link de E-mail</a>
+    <a href="tel:+5549123456789">Link de Telefone</a>
+    <a href="teste.pdf" download>Link de download</a>
+    <br><br>
+    <!--Exemplo Prático-->
+    <nav>
+        <a href="#servicos" title="Clique aqui e vá para serviços">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="servicos">
+        <h2>Serviços</h2>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+    </section>
+    <hr>
+    <h2>Listas</h2>
+    <ul> <!--Listas Não Numeradas-->
+        <li>HTML</li> <!--li cria itens para a lista-->
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <ol> <!--Listas Numeradas / Ordenadas-->
+        <li>HTML</li> <!--li cria itens para a lista-->
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <!-- <ol type=""></ol> Definir o tipo de marcador A, a, i, I, 1 -->
+    <!-- <ol start="2"></ol> Definir o número inicial da lista -->
+    <!-- <ol reversed></ol> Contagem descrescente -->
+    <!-- Lista de Descrição (Glossário/FAQ)-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de Marcação de Hipertexto que estrutura o conteúdo</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de Estilos que define a aparência</dd>
+    </dl>
+    <hr>
+
+    <table>
+        <caption>Horários das aulas da semana</caption>
+        <thead> <!--Cabeçalho da tabela-->
+            <tr> <!--Linha-->
+                <th scope="col">Dia</th>
+                <th scope="col">Unidade Curricular</th>
+                <th scope="col">Horário</th><!--Célula de Cabeçalho-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda-Feira</td> <!--Célula de Dados-->
+                <td>Projetos de Front-End</td>
+                <td>14:00 - 17:30</td>
+            </tr>
+            <tr>
+                <td>Terça-Feira</td> <!--Célula de Dados-->
+                <td>Projetos de Front-End</td>
+                <td>14:00 - 17:30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Intervalo: 15:15 às 15:30</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <img src="https://conexaoplaneta.com.br/wp-content/uploads/2017/01/onde-a-natureza-esta-abre-conexao-planeta-foto-marcos-amend.jpg"
+        alt="Um beija-flor beijando flor">
+    <img src="img/natureza.webp" alt="Natureza" width="500px" height="auto">
+    <figure>
+        <img src="img/natureza.webp" alt="Natureza" width="500px" height="auto">
+        <figcaption>Imagem de um rio no meio de árvores</figcaption>
+    </figure>
+    <a href="index.html">
+        <img src="img/natureza.webp" alt="Natureza" width="500px" height="auto">
+    </a>
+</body>
+</html>
